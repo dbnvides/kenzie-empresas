@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/globalStyle.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/buttons.css">
+    <link rel="stylesheet" href="../styles/form.css">
+    <link rel="stylesheet" href="../styles/input.css">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="../styles/toast.css">
+    <link rel="stylesheet" href="../styles/animation.css">
+    <link rel="stylesheet" href="../styles/texts.css">
+    <title>Kenzie Empresas</title>
+</head>
+
+<body class="bg-main">
+    <header class="header-menu">
+        <div class="container">
+            <nav class="nav-menu">
+                <div class="logo">
+                    <img src="../assets/Logo.png" alt="circulo">
+                </div>
+                <div class="buttons-menu">
+                    <button class="drop-down"></button>
+                    <ul class="list-menu">
+                        <li>
+                            <a href="../HomePage/index.html" class="button-default btn-link btn-login">Home</a>
+                        </li>
+                        <li>
+                            <a href="../Register/register.html"
+                                class="button-default btn-link btn-register">Cadastro</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container-main">
+        <section class="main-content">
+            <form class="form-default form-login">
+                <h2>Login</h2>
+                <label for="email">Preencha os campos para realizar login</label>
+                <input type="email" class="input-default" name="email" id="email" placeholder="Seu e-mail">
+                <input type="password" class="input-default" name="password" id="password" placeholder="Sua senha">
+                <button class="button-default button-login">Login</button>
+                <p class="or">OU</p>
+                <a href="../Register/register.html" class="button-default button-register btn-link ">Cadastre-se</a>
+            </form>
+        </section>
+    </main>
+
+    <script type="module" src="./login.js"></script>
+</body>
+
+</html>

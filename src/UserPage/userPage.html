@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/input.css">
+    <link rel="stylesheet" href="../styles/globalStyle.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/buttons.css">
+    <link rel="stylesheet" href="../styles/modal.css">
+    <link rel="stylesheet" href="./userPage.css">
+    <link rel="stylesheet" href="../styles/toast.css">
+    <link rel="stylesheet" href="../styles/animation.css">
+    <link rel="stylesheet" href="../styles/texts.css">
+
+    <title>Kenzie Empresas</title>
+</head>
+
+<body>
+    <header class="header-menu">
+        <div class="container">
+            <nav class="nav-menu">
+                <div class="logo">
+                    <img src="../assets/Logo.png" alt="circulo">
+                </div>
+                <div class="buttons-menu">
+                    <button class="drop-down"></button>
+                    <ul class="list-menu">
+                        <li>
+                            <button class="button-default btn-link btn-register" id="log-out">Logout</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container container-profile">
+        <section class="sec-inf-profile">
+            <div class="div-inf-profile">
+                <h2 id="username">Username</h2>
+                <ul class="list-inf-profile">
+                  
+                </ul>
+            </div>
+            <div>
+                <button class="modal-edit" id="btn-user-edit"></button>
+            </div>
+
+        </section>
+
+        <section class="sec-list-co-worker">
+            <div class="empyt-list">
+                <h2>Você ainda não foi contratado</h2>
+            </div>
+            <div class="employee">
+                <header>
+                    <h2 id="nameCompany">Nome da companhia</h2>
+                    <span class="space">-</span>
+                    <h2 id="nameDepartment">Nome do departamento</h2>
+                </header>
+                <ul class="list-co-work">
+                    
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="./userPage.js"></script>
+</body>
+
+</html>

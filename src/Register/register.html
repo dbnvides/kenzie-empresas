@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/globalStyle.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/buttons.css">
+    <link rel="stylesheet" href="../styles/form.css">
+    <link rel="stylesheet" href="../styles/input.css">
+    <link rel="stylesheet" href="./register.css">
+    <link rel="stylesheet" href="../styles/toast.css">
+    <link rel="stylesheet" href="../styles/animation.css">
+    <link rel="stylesheet" href="../styles/texts.css">
+    
+    <title>Kenzie Empresas</title>
+</head>
+
+<body class="bg-main">
+    <header class="header-menu">
+        <div class="container">
+            <nav class="nav-menu">
+                <div class="logo">
+                    <img src="../assets/Logo.png" alt="circulo">
+                </div>
+                <div class="buttons-menu">
+                    <button class="drop-down"></button>
+                    <ul class="list-menu">
+                        <li>
+                            <a href="../HomePage/index.html" class="button-default btn-link btn-login">Home</a>
+                        </li>
+                        <li>
+                            <a href="../Login/login.html" class="button-default btn-link btn-register">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container-main">
+        <section class="main-content">
+            <form class="form-default form-register">
+                <h2>Cadastre-se</h2>
+                <input type="text" id="username" class="input-default" placeholder="Seu nome">
+                <input type="email" class="input-default" name="email" id="email" placeholder="Seu e-mail">
+                <input type="password" class="input-default" name="password" id="password" placeholder="Sua senha">
+                <select class="input-default select-nivel" id="professional_level">
+                    <option value="default">Nivel profissional</option>
+                    <option value="estágio">Estágio</option>
+                    <option value="júnior">Junior</option>
+                    <option value="pleno">Pleno</option>
+                    <option value="sênior">Senior</option>
+                </select>
+                <button type="submit" class="button-default btn-register">Cadastre-se</button>
+                <a href="../HomePage/index.html" class="button-default btn-back-to-login btn-link">Retornar</a>
+            </form>
+        </section>
+    </main>
+
+    <script type="module" src="./register.js"></script>
+</body>
+
+</html>

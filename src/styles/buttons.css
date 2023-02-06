@@ -1,0 +1,41 @@
+.button-default{
+    padding: 10px 35px;
+    border: 1px solid var(--color-brand);
+    cursor: pointer;
+}
+
+.btn-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-text2);
+    text-decoration: none;
+    color: var(--color-gray);
+    font-weight: var(--font-weight-bold);
+    border-radius: 4px;
+}
+
+.btn-login{
+    color: var(--color-brand);
+}
+
+.btn-register{
+    background-color: var(--color-brand);
+    color: var(--color-fixed-white);
+    font-size: var(--font-size-text2);
+}
+
+.button-desable{
+    background-color: var(--color-brand2);
+    color: var(--color-gray2);
+    
+}
+
+.button-desable:hover{
+    cursor: auto;
+}
+
+.btn-back-to-login{
+    color: var(--color-brand);
+    font-size: var(--font-size-text2);
+}

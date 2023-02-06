@@ -1,0 +1,36 @@
+.button-login{
+    background: var(--color-brand);
+    color: var(--color-fixed-white);
+    font-size: var(--font-size-text2);
+    border-radius: 4px;
+}
+
+.button-register{
+    color: var(--color-brand);
+}
+
+.or{
+    margin: 25px 0 25px 0;
+    text-align: center;
+}
+
+.container-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content{
+    width: 506px;
+    margin: 0 auto;
+    
+}
+
+@media (min-width:900px) {
+    .container-main{
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}

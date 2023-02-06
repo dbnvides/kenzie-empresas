@@ -1,0 +1,127 @@
+.container-profile{
+    margin-top: 50px;
+}
+
+.sec-inf-profile{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    background-color: var(--color-fixed-white);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.div-inf-profile{
+    width: 784px;
+}
+
+.div-inf-profile>h2{
+    font-size: 30px;
+    font-weight: var(--font-weight-bold);
+    padding: 0px 0 15px 0;
+}
+
+.list-inf-profile{
+    display: flex;
+}
+
+.list-inf-profile>li{
+    display: flex;
+    width: 100%;
+    font-size: var(--font-size-text1);
+    justify-content: space-between;
+}
+
+.modal-edit{
+    background-image: url('../assets/icon-edit.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--color-fixed-white);
+    background-color: var(--color-fixed-white);
+}
+
+.employee{
+    width: 100%;
+    height: 467px;
+    background: var(--color-bg-list);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #A8A8A8;
+}
+
+.employee>header{
+    display: flex;
+    height: 78px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: var(--color-brand);
+    color: var(--color-fixed-white);
+    border-radius: 4px 4px 0 0;
+}
+
+.employee>header h2{
+    font-size: 32px;
+    font-weight: var(--font-weight-bold);
+}
+
+.employee>header span{
+    font-size: 32px;
+    font-weight: var(--font-weight-bold);
+}
+
+.list-co-work{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: flex-start;
+}
+
+.list-co-work li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px 0 14px 23px;
+    width: 318px;
+    background-color: var(--color-fixed-white);
+    height: 76px;
+    font-size: var(--font-size-text2);
+    border: 1px solid var(--color-brand);
+    border-radius: 4px;
+}
+
+.list-co-work li .name-title{
+    font-weight: var(--font-weight-bold);
+}
+
+.empyt-list{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 467px;
+    background: var(--color-bg-list);
+}
+
+.empyt-list>h2{
+    font-size: 40px;
+    font-weight: var(--font-weight-bold);
+}
+
+#btn-user-edit{
+    cursor: pointer;
+}
+
+#btn-edit-user{
+    background-color: var(--color-brand);
+    color: var(--color-fixed-white);
+}
